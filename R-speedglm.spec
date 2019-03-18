@@ -4,13 +4,12 @@
 #
 Name     : R-speedglm
 Version  : 0.3.2
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/speedglm_0.3-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/speedglm_0.3-2.tar.gz
 Summary  : Fitting Linear and Generalized Linear Models to Large Data Sets
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: R-biglm
 BuildRequires : R-biglm
 BuildRequires : buildreq-R
 
@@ -25,10 +24,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552798870
+export SOURCE_DATE_EPOCH=1552936221
 
 %install
-export SOURCE_DATE_EPOCH=1552798870
+export SOURCE_DATE_EPOCH=1552936221
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
