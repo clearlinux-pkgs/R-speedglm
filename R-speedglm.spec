@@ -5,7 +5,7 @@
 #
 Name     : R-speedglm
 Version  : 0.3.5
-Release  : 48
+Release  : 49
 URL      : https://cran.r-project.org/src/contrib/speedglm_0.3-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/speedglm_0.3-5.tar.gz
 Summary  : Fitting Linear and Generalized Linear Models to Large Data Sets
